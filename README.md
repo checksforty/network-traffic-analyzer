@@ -10,3 +10,5 @@ Detecting suspicious activity (port scans) on a small network by analyzing packe
 - **Scapy** for packet-level PCAP parsing and analysis. [web:34]
 - **Pyshark** (tshark/Wireshark wrapper) for higher-level packet decoding and filtering. [web:29]
 - Standard Python libraries (`collections`, `argparse`, `pandas`).
+
+python src/analyze_scan.py --pcap pcap/portscan.pcap --threshold 50
