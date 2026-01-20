@@ -11,4 +11,8 @@ Detecting suspicious activity (port scans) on a small network by analyzing packe
 - **Pyshark** (tshark/Wireshark wrapper) for higher-level packet decoding and filtering. [web:29]
 - Standard Python libraries (`collections`, `argparse`, `pandas`).
 
-python src/analyze_scan.py --pcap pcap/portscan.pcap --threshold 50
+## Setup
+
+```bash
+pip install -r requirements.txt
+
